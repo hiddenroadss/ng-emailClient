@@ -7,10 +7,11 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { SignupComponent } from './signup/signup.component';
 import { SigninComponent } from './signin/signin.component';
 import { SharedModule } from '../shared/shared.module';
+import { SignOutComponent } from './sign-out/sign-out.component';
 
 
 @NgModule({
-  declarations: [SignupComponent, SigninComponent],
+  declarations: [SignupComponent, SigninComponent, SignOutComponent],
   imports: [
     CommonModule,
     AuthRoutingModule,
